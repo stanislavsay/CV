@@ -19,6 +19,65 @@ body
     padding: 20px 0 0;
 }
 
+#wrapper .container
+    {
+        background-color: #fff;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+        -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        margin: 0 auto;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+/*remember - change this photo!*/
+.cvphoto
+    {
+        background: url(../images/matthew.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 360px;
+    }
+
+.name-block
+    {
+        background-color: #2f2f2f;
+    }
+.name-title
+    {
+        padding: 17px 40px 18px 40px;
+        min-height: 120px;
+        max-height: 120px;
+        overflow: hidden;
+        color: #ffffff;
+    }
+.name-caption
+    {
+        margin: 0;
+        font-size: 40px;
+        line-height: 2.1em;
+        font-weight: 200 !important;
+    }
+.cv-to-pdf
+    {
+        min-height: 120px;
+        max-height: 120px;
+        text-align: center;
+    }
+
+.cv-button
+    {
+        padding-top: 34px;
+        display: block;
+        cursor: pointer;
+        color: #b7b7b7;
+        font-size: 40px;
+        font-weight: 200 !important;
+        vertical-align: middle;
+    }
 
 .footer
 {
